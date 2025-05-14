@@ -59,8 +59,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 val builder= AlertDialog.Builder(this@MainActivity)
                 builder.setIcon(R.drawable.img)
-                builder.setTitle("Are you sure?")
-                builder.setMessage("Do you want to exit?")
+                builder.setTitle("Do you want to exit?")
                 builder.setPositiveButton("Yes") { _, _ ->
                     finish()
                 }
